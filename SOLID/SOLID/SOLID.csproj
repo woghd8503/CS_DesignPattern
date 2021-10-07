@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OpenClosedPrinciple.cs" />
+    <Compile Include="LiskovSubstitutionPrinciple.cs" />
+    <None Include="OpenClosedPrinciple.cs" />
     <None Include="SingleResponsibilityPrinciple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
