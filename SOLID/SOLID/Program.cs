@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace SOLID
 {
@@ -63,7 +63,14 @@ namespace SOLID
         static void Main(string[] args)
         {
             var j = new Journal();
-            j.AddEntry("i");
+            j.AddEntry("I cried today.");
+            j.AddEntry("I ate a bug.");
+            WriteLine(j);
+
+            var p = new Persistence();
+            var filename = @"c:\temp\journal.txt";
+            p.SaveToFile(j, filename);
+            Process.Start(filename);
         }
     }
 }
