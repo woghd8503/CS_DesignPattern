@@ -53,8 +53,8 @@ namespace SOLID
     {
        public void SaveToFile(Journal jouranl, string filename, bool overwrite = false)
         {
-            if(overwrite || !File.Exists(filename))
-                File.WriteAllText
+            if (overwrite || !File.Exists(filename))
+                File.WriteAllText(filename, Journal.ToString());
         }
     }
 }
