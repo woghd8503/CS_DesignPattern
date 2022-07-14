@@ -51,10 +51,18 @@ namespace SOLID
     // handles the responsibility of persisting objects
     public class Persistence
     {
-       public void SaveToFile(Journal jouranl, string filename, bool overwrite = false)
+       public void SaveToFile(Journal journal, string filename, bool overwrite = false)
         {
             if (overwrite || !File.Exists(filename))
-                File.WriteAllText(filename, Journal.ToString());
+                File.WriteAllText(filename, journal.ToString());
+        }
+    }
+
+    public class Demo
+    {
+        static void Main(string[] args)
+        {
+
         }
     }
 }
