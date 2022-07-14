@@ -24,6 +24,11 @@ namespace SOLID
         {
             entries.RemoveAt(index);
         }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
         static void Main(string[] args)
         {
             
