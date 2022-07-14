@@ -16,7 +16,8 @@ namespace SOLID
 
         public int AddEntry(string text)
         {
-            entries.Add()
+            entries.Add($"{++count}: {text}");
+            return count; // memento pattern!
         }
 
         static void Main(string[] args)
