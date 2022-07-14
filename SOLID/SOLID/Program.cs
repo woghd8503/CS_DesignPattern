@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLID
 {
-    class Program
+    // Just 
+    public class Journal
     {
         static void Main(string[] args)
         {
