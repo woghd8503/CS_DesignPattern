@@ -62,6 +62,7 @@ namespace SOLID
     {
         static void Main(string[] args)
         {
+            var j = new Journal();
 
         }
     }
