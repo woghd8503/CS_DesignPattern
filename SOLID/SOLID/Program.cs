@@ -27,7 +27,7 @@ namespace SOLID
 
         public override string ToString()
         {
-            return base.ToString();
+            return String.Join(Environment.NewLine, entries);
         }
         static void Main(string[] args)
         {
