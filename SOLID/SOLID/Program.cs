@@ -34,7 +34,7 @@ namespace SOLID
         // breakes single responsibility principle
         public void Save(string filename, bool overwrite = false)
         {
-            File.
+            File.WriteAllText(filename, ToString());
         }
         static void Main(string[] args)
         {
