@@ -20,6 +20,10 @@ namespace SOLID
             return count; // memento pattern!
         }
 
+        public void RemoveEntry(int index)
+        {
+            entries.RemoveAt(index);
+        }
         static void Main(string[] args)
         {
             
