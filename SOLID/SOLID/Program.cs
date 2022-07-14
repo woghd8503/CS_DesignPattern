@@ -42,5 +42,9 @@ namespace SOLID
 
         }
 
+        public void Load(Uri uri)
+        {
+
+        }
     }
 }
