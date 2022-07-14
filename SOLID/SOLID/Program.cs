@@ -30,6 +30,7 @@ namespace SOLID
             return String.Join(Environment.NewLine, entries);
         }
 
+        // breakes single responsibility principle
         static void Main(string[] args)
         {
             
