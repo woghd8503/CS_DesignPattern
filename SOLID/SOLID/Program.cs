@@ -36,9 +36,11 @@ namespace SOLID
         {
             File.WriteAllText(filename, ToString());
         }
-        static void Main(string[] args)
+        
+        public void Load(string filename)
         {
-            
+
         }
+
     }
 }
