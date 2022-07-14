@@ -29,6 +29,7 @@ namespace SOLID
         {
             return String.Join(Environment.NewLine, entries);
         }
+
         static void Main(string[] args)
         {
             
