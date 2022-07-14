@@ -12,6 +12,7 @@ namespace SOLID
     {
         static void Main(string[] args)
         {
+            private readonly List<string> entries = new List<string>();
         }
     }
 }
