@@ -5,3 +5,4 @@ D:\01.Coding_study\CS_DesignPattern\SOLID\SOLID\obj\Debug\SOLID.csproj.AssemblyR
 D:\01.Coding_study\CS_DesignPattern\SOLID\SOLID\obj\Debug\SOLID.csproj.CoreCompileInputs.cache
 D:\01.Coding_study\CS_DesignPattern\SOLID\SOLID\obj\Debug\SOLID.exe
 D:\01.Coding_study\CS_DesignPattern\SOLID\SOLID\obj\Debug\SOLID.pdb
+D:\01.Coding_study\CS_DesignPattern\SOLID\SOLID\obj\Debug\SOLID.csproj.SuggestedBindingRedirects.cache
